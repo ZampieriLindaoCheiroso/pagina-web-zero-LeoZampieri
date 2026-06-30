@@ -3,32 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog De Carros</title>
     <style>
        header{
         background-color: lightseagreen;
         color: blueviolet;
+        text-align: center;
+        max-width: 800px;
+        margin:0 auto;
+        padding: 16px;
        }
        main{
         background-color: darkslategray;
         color: blueviolet;
+        margin:0 auto;
+        padding:16px;
+       }
+       article{
+        display: flex;
        }
        img{
         width:80px;
         height:80px;
        }
+       .artigo-autor{
+        font-weight: bold;
+       }
     </style>
 </head>
-<body>
+<body>''
     <header>
-        <h1>MEU BLOG AUTOMOTIVO</h1>
-        <p>Vou compartilhar cohecimentos sobre carros, motores e velocidades</p>
+        <h1>MEU BLOG SOBRE CARROS</h1>
+        <p>Vou compartilhar cohecimentos sobre carros</p>
     </header>
-    <main>
-        <img src="imagem-blog.png">
-        <h2>Meu priemiro post</h2>
-        <p>Por: Leonardo Zampieri</p>
-        <p>Boas vindas ao meu novo blog! Aqui vou compartilhar dicas na area de carros</p>
+    <div>
+        <article>
+        <img src="imagem-blog.png" alt="Logotipo conceitual de Carros">
+        <div>
+            <p class="artigo-autor">Meu priemiro post</p>p>
+            <p>Por: Leonardo Zampieri</p>
+            <p>Boas vindas ao meu novo blog! Aqui vou compartilhar carros</p>
+            <button>🏎<span>0</span></button>
+            <button>🚗<span>0</span></button>
+            </div>
+        </article>
+
+        <article>
+           <img src="segundo-post.png" alt="Segunda publicacao">
+           <div>
+
+               <p class="artigo-autor">Meu priemiro post</p>
+               <p>Por: Leonardo Zampieri</p>
+               <ul>
+                   <li>Top 3 melhores carros</li>
+                   <li>1º Opala Diplomata 92 </li>
+                   <li>2º Porsche 911 Turbo S</li>
+                   <li>3º Changan Uni T</li>
+                </ul>
+            <button>🏎<span>0</span></button>
+            <button>🚗<span>0</span></button>
+            </div>
+        </article>
+     
     </main>
 </body>
 </html>
